@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    animation: bg-change 10s infinite;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+@keyframes bg-change{
+    0%{
+        background-color: #272727;
+    }
+
+    20%{
+        background-color: blue;
+    }
+
+    40%{
+        background-color: tomato;
+    }
+
+    60%{
+        background-color: yellow;
+    }
+
+    80%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: pink;
+    }
+}
