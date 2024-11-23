@@ -6,8 +6,12 @@ window.onscroll = () => {
 
         let secDistance = sec.offsetTop;
 
-        if(scrollDistance >= secDistance){
+        if(scrollDistance >= secDistance - 150){
             sec.classList.add('show-animate');
+        }
+
+        else{
+            sec.classList.remove('show-animate');
         }
     })
 }
